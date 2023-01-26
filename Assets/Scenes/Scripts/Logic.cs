@@ -247,8 +247,15 @@ public class Logic : MonoBehaviour
         {
             Flood(GetCell(cell.position.x - 1, cell.position.y));
             Flood(GetCell(cell.position.x + 1, cell.position.y));
+
             Flood(GetCell(cell.position.x, cell.position.y - 1));
             Flood(GetCell(cell.position.x, cell.position.y + 1));
+
+            Flood(GetCell(cell.position.x + 1, cell.position.y + 1));
+            Flood(GetCell(cell.position.x - 1, cell.position.y - 1));
+
+            Flood(GetCell(cell.position.x + 1, cell.position.y - 1));
+            Flood(GetCell(cell.position.x - 1, cell.position.y + 1));
         }
     }
 
