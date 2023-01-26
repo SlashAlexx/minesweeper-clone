@@ -181,8 +181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47639083f10ab24e8a520486913e098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 16
-  height: 16
+  width: 10
+  height: 10
+  mineCount: 15
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,10 +323,10 @@ MonoBehaviour:
   tileNum2: {fileID: 11400000, guid: 0035db1c36fc78a4d997b66695c90fdb, type: 2}
   tileNum3: {fileID: 11400000, guid: d8413d2edb697b14ca5a021dc13515ed, type: 2}
   tileNum4: {fileID: 11400000, guid: 100c5a3e1682cb44c927f59d97736b9a, type: 2}
-  tileNum5: {fileID: 11400000, guid: 100c5a3e1682cb44c927f59d97736b9a, type: 2}
-  tileNum6: {fileID: 11400000, guid: 184af54cd1018c74f973142e50e792d7, type: 2}
-  tileNum7: {fileID: 11400000, guid: c9cb5b400f0fc2749944535d24d0a8c3, type: 2}
-  tileNum8: {fileID: 11400000, guid: b0e369c380f5c66468d54c4756489a1b, type: 2}
+  tileNum5: {fileID: 11400000, guid: 184af54cd1018c74f973142e50e792d7, type: 2}
+  tileNum6: {fileID: 11400000, guid: c9cb5b400f0fc2749944535d24d0a8c3, type: 2}
+  tileNum7: {fileID: 11400000, guid: b0e369c380f5c66468d54c4756489a1b, type: 2}
+  tileNum8: {fileID: 11400000, guid: 6371402c2e9699a429748f0dbc3e3767, type: 2}
 --- !u!483693784 &1964476780
 TilemapRenderer:
   m_ObjectHideFlags: 0
